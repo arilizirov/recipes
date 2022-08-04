@@ -2,18 +2,24 @@ import Pages from './pages/Pages';
 import Category from "./components/Category";
 import {BrowserRouter} from 'react-router-dom';
 import Search from "./components/Search";
+<<<<<<< HEAD
 import styled from "styled-components";
 import {Link} from "react-router-dom";
 import { GiKnifeFork } from "react-icons/gi";
+=======
+>>>>>>> 57768ba19c742fd1320c1a0b0a179a908a42b091
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+<<<<<<< HEAD
       <Nav>
         <GiKnifeFork />
         <Logo to={"/"}>delicioso</Logo>
       </Nav>
+=======
+>>>>>>> 57768ba19c742fd1320c1a0b0a179a908a42b091
       <Search />
       <Category />
       <Pages />
